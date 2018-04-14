@@ -6,7 +6,7 @@ DEVICE_ID = 0x6204
 
 
 def usage():
-    print("Usage: python fanatec_lc.py [0-10]")
+    print("Usage: python LoadCellConf.py [0-10]")
     sys.exit(0)
 
 
