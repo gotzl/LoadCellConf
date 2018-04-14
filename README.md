@@ -5,5 +5,7 @@ A virtual machine was used to find the bytearrays used to write the resistance a
 There are some hardcoded bytes whose meaning I do not (yet) know ...
 
 Usage:
-> python LoadCellConf.py # read current value
-> python LoadCellConf.py [0-10] # set value, with 0 lowest and 10 the highest resistance
+```bash
+python LoadCellConf.py # read current value
+python LoadCellConf.py [0-10] # set value, with 0 lowest and 10 the highest resistance
+```
